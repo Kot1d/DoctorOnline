@@ -1,0 +1,10 @@
+<resources>
+
+  <style name="Theme.DoctorOnline" parent="Theme.Material3.Light.NoActionBar">
+    <item name="colorPrimary">@color/red</item>
+    <item name="colorSecondary">@color/red</item>
+    <item name="android:windowBackground">@color/background</item>
+    <item name="android:statusBarColor">@color/background</item>
+    <item name="android:windowLightStatusBar">true</item>
+  </style>
+</resources>

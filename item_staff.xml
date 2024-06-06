@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginHorizontal="16dp"
+  android:layout_marginBottom="8dp"
+  android:foreground="?attr/selectableItemBackground"
+  app:cardBackgroundColor="@color/white"
+  app:cardCornerRadius="8dp"
+  app:cardElevation="1dp"
+  app:contentPadding="12dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/item_fullname"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/montserrat_bold"
+      android:gravity="start"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      tools:text="Терапевт" />
+
+    <TextView
+      android:id="@+id/item_post"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:fontFamily="@font/montserrat_regular"
+      android:gravity="start"
+      android:textColor="@color/gray"
+      android:textSize="14sp"
+      tools:text="Терапевт" />
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>

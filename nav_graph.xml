@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_graph"
+  app:startDestination="@id/authFragment">
+
+  <fragment
+    android:id="@+id/authFragment"
+    android:name="com.doctoronline.presentation.AuthFragment"
+    android:label="fragment_auth"
+    tools:layout="@layout/fragment_auth" />
+  <fragment
+    android:id="@+id/scheduleFragment"
+    android:name="com.doctoronline.presentation.ScheduleFragment"
+    android:label="fragment_schedule"
+    tools:layout="@layout/fragment_schedule" />
+  <fragment
+    android:id="@+id/signUpFragment"
+    android:name="com.doctoronline.presentation.SignUpFragment"
+    android:label="fragment_sign_up"
+    tools:layout="@layout/fragment_sign_up" />
+  <fragment
+    android:id="@+id/supportFragment"
+    android:name="com.doctoronline.presentation.SupportFragment"
+    android:label="fragment_support"
+    tools:layout="@layout/fragment_support" />
+</navigation>
